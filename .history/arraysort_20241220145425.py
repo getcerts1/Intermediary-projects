@@ -13,4 +13,4 @@ def sorting(array):
   
   return list_a
 
-print(sorting(newarray))
+print(sorted())
