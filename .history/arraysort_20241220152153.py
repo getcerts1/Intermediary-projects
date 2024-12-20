@@ -24,6 +24,6 @@ def sortgame():
   for i in range(numofvalues + 1):
       randomarray.append(random.randint(0,9))
 
-  return sorted(set(randomarray))
+  return sorted(randomarray)
 
-print(sortgame())
+sortgame()

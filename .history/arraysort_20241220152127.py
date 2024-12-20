@@ -18,12 +18,12 @@ def newsorting(array):
     return sorted(array)
 
 def sortgame():
-  numofvalues = int(input('how many values are you going to sort?\n'))
+  numofvalues = int(input('how many values are you going to sort?\ '))
 
   randomarray = []
   for i in range(numofvalues + 1):
       randomarray.append(random.randint(0,9))
 
-  return sorted(set(randomarray))
+  return sorted(randomarray)
 
-print(sortgame())
+sortgame()
