@@ -5,5 +5,5 @@ def sort(array):
 
   sort(array)
 
-print(sort(newarray))
+print(sort(newarrayarray))
 
