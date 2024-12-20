@@ -9,6 +9,4 @@ def sorting(array):
     if value == i and value not in list_a:
       list_a.append(value)
       newarray.remove(value)
-    i+=1
-  
-  return list_a
+      i+=1
